@@ -18,7 +18,7 @@ async function get_embeddings(texts){
 }
 
 async function push_to_mongo(){
-    await mongoose.connect('mongo-string-----')
+    await mongoose.connect('---mongo-string-----')
     const schema = new mongoose.Schema({
         story:String,
         embedding:[Number]
